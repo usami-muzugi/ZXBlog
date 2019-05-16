@@ -21,7 +21,7 @@
 
 使用匿名内部类:
 ```java
-Comparator<Integer>com = new Comparator<Integer>() {
+Comparator<Integer> com = new Comparator<Integer>() {
     @Override
     public int compare(Integer o1, Integer o2) {  //降序排列
         return Integer.compare(o2,o1);
